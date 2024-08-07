@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>form2</head>
+<style>
+    #form{
+        display: flex;
+        flex-direction: column;
+            width: 50%;
+    }
+</style>
+
+<body style="background-color: burlywood;" id="body">
+<form id="form">
+<h1>job application</h1>
+<label for="name">enter name</label>
+<input type="text" placeholder="name" id="name"><br>
+<label for="email">enter email</label>
+<input type="email" placeholder="email" id="email"><br>
+<label for="mobile">mobile num:</label>
+<input type="tel" name="mobile" id="mobile"><br>
+<label for="file">resume:</label>
+<input type="file" name="file" id="file"><br>
+<label for="">experience</label>
+<input type="number" name="number" id="number" min="0" max="50"><br>
+<fieldset>
+<legend>skill</legend>
+
+<input type="checkbox"  name="checkbox" id="checkbox">
+<label for="checkbox">html</label>
+<input type="checkbox"  name="checkbox" id="checkbox">
+<label for="checkbox">javascript</label>
+<input type="checkbox"  name="checkbox" id="checkbox">
+<label for="checkbox">css</label><br>
+</fieldset>
+<label for="educationtype">higest education:</label>
+<select name="educationtype" id="educationtype">
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+    <option value="d">D</option>
+    <option value="e">E</option>
+</select>
+<fieldset>
+<legend>availability:</legend>
+<label for="radio1">full-time</label>
+<input type="radio" name="radio" id="radio1"><br>
+<label for="radio2">parrt-time</label>
+<input type="radio" name="radio" id="radio2">
+</fieldset>
+<label for="comment">additional comment:</label><br>
+<textarea name="textarea" id="textarea" cols="20" rows="10" placeholder="enter comment"></textarea>
+<input type="submit" value="submit application">
+</form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            padding: 4rem;
+            display: grid;
+            gap: 1rem;
+            background-color: rgba(0, 0, 0, 0.278);
+           /* grid-template-columns:repeat(3,1fr);*/
+            grid-template-columns: repeat(auto-fit,minmax(200px,500px));
+           /* minmax min width 200px n max width 500px ni columns bane */
+        }
+
+        .iteam{
+            border: 3px solid black;
+            background-color: rgba(0, 0, 255, 0.234);
+            color: white;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="iteam">a</div>
+        <div class="iteam">b</div>
+        <div class="iteam">c</div>
+        <div class="iteam">d</div>
+        <div class="iteam">e</div>
+        <div class="iteam">f</div>
+        <div class="iteam">g</div>
+        <div class="iteam">h</div>
+        <div class="iteam">i</div>
+        <div class="iteam">j</div>
+        <div class="iteam">k</div>
+        <!-- <div class="iteam">l</div>
+        <div class="iteam">m</div>
+        <div class="iteam">n</div>
+        <div class="iteam">o</div>
+        <div class="iteam">p</div> -->
+     </div>
+</body>
+</html>
